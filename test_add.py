@@ -8,7 +8,7 @@ def test_sum():
 def test_sum_output_type():
     assert type(add_ex.sum_num(1,2)) is int
 
-    # Parametrizing test method
+# Parametrizing test method
 # to perform multiple call to same test function
 # here pass arguments as a string and values as a list of tuples.
 @pytest.mark.parametrize('num1, num2, expected', [(3,5,8),(-5,19,14)])
@@ -21,7 +21,7 @@ def get_sum_test_data_para():
 def test_sum_other_para_othr(num1, num2, expected):
     assert add_ex.sum_num(num1, num2) == expected
 
-    # Fixtures
+# Fixtures
 # Fixtures can be used to share test data btw test, 
 # execute setup and teardown methods
 @pytest.fixture
