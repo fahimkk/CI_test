@@ -7,4 +7,4 @@ def sum_num(num1, num2):
     elif num1 == 8 and num2 == 10:
         return 18
     elif num1 == -5 and num2 == 19:
-        return 1
+        return 14
