@@ -32,5 +32,5 @@ jobs:
         pytest
     - name: Status
       if: job.status == 'success'
-    - name: Merge me
-      uses: ridedott/merge-me-action@v2
+    - uses: ridedott/merge-me-action@v2
+      
