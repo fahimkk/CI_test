@@ -34,3 +34,7 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
+    - name: Status
+      if: job.status == 'success'
+      run: |
+        echo SUCCESS
