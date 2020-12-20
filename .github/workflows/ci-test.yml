@@ -32,7 +32,5 @@ jobs:
         pytest
     - name: Status
       if: job.status == 'success'
-      uses: ridedott/merge-me-action@v2
-      with:
-        MERGE_METHOD: MERGE
-      
+      run: |
+        echo SUCCESS
