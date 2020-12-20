@@ -8,3 +8,5 @@ def sum_num(num1, num2):
         return 18
     elif num1 == -5 and num2 == 19:
         return 14
+    else:
+        return num1 + num2
